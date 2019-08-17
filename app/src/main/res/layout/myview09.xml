@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="bottom|center"
+        android:background="#F44336"
+        android:text="23" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="#FFEB3B"
+        android:text="25"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center|top"
+        android:background="#03A9F4"
+        android:text="26"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="중앙왼쪽" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:text="중앙왼쪽" />
+
+</FrameLayout>

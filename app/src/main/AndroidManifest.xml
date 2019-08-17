@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <!-- 첫 화면 지정부분 -->
-        <activity android:name=".MyView01">
+        <activity android:name=".Mission01">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
